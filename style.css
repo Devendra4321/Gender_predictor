@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: linear-gradient(
+    45deg,
+    hsl(0deg 82% 18%) 0%,
+    hsl(11deg 96% 16%) 11%,
+    hsl(18deg 100% 15%) 22%,
+    hsl(23deg 100% 15%) 33%,
+    hsl(27deg 100% 14%) 44%,
+    hsl(32deg 100% 13%) 56%,
+    hsl(38deg 100% 13%) 67%,
+    hsl(43deg 100% 12%) 78%,
+    hsl(49deg 100% 11%) 89%,
+    hsl(55deg 86% 11%) 100%
+  );
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 60px;
+}
+
+.container h2 {
+  color: white;
+  font-size: 50px;
+}
+
+.container .result {
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-size: 22px;
+}
+
+.container .result span {
+  color: rgb(136, 189, 29);
+}
+
+.sub-container {
+  padding: 10px;
+  margin: 10px;
+  height: 40px;
+  width: 415px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+
+.sub-container .input {
+  padding: 5px;
+  width: 220px;
+  font-size: 16px;
+  margin: 5px 0 0 5px;
+}
+
+.sub-container button {
+  width: 150px;
+  padding: 7px;
+  font-size: 16px;
+  margin-left: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(136, 189, 29);
+}
+
+.sub-container button:hover {
+  transform: scale(0.9);
+}
